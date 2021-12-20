@@ -1,0 +1,19 @@
+.list-space{
+    li{
+        color: $grayish-blue;
+        margin-left: 3rem !important;
+        cursor: pointer;
+    }
+
+    li:hover{
+        color: $dark-grayish-blue;
+    }
+}
+
+h2{
+    font-weight: 700;
+}
+
+.w-40{
+    width: 40% !important;
+}

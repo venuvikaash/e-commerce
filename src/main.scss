@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'assets/css/_colors.scss';
+@import 'assets/css/_navbar.scss';
+
+//font-family: 'Kumbh Sans', sans-serif;
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.imageThumbnailMain{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.imageThumbnailSmall{
+    width: 75px;
+    border-radius: 10px;
+}
+
+// .imageThumbnailSmall:hover{
+
+// }
+
+.w-30{
+    width: 33% !important;
+}
+
+.mainContainer{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.imageThumbnailSmall:hover{
+    // opacity: 0.2;
+    border: 2px solid $orange;
+    color: white 0.2;
+}
+
+.heading1{
+    font-weight: 700;
+    color: $orange;
+}
+
+h2{
+    font-weight: 700;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.strikethrough{
+    color:$grayish-blue;
+}
+
+.addCart{
+    color: white;
+    background-color: #ff7d1a;
+    border: 0px;
+    width: 50%;
+    height: 3rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border:none;
+    margin-right: 1.5rem;
+}
+
+.offer{
+    background-color: $pale-orange;
+    color: $orange;
+}
+
+
